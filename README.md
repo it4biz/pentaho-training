@@ -48,7 +48,7 @@ Home -> Administration
 Pentaho BI Server 5.0.1CE MySQL installation guide
 http://anonymousbi.wordpress.com/2013/12/15/pentaho-bi-server-5-0-1ce-mysql-installation-guide/
 
-Personalização
+Personalização básica para colocar em produção
 1) Alterar o logo da página inicial do BI Server 5.0.1
 
 Na pasta:
@@ -65,6 +65,60 @@ http://localhost:8080/pentaho/content/common-ui/resources/themes/images/puc-logi
 
 Reiniciar o BI Server caso necessário.
 
+2) Remover o Botão Login as an Evaluator
 
+Na pasta:
+biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/jsp
+
+Editar o arquivo PUCLogin.jsp
+
+Comentar o código abaixo:
+
+<div id="eval-users-toggle-container">
+            <%
+              if (showUsers) {
+            %>
+            <div id="eval-users-toggle" onClick="toggleEvalPanel()">
+              <div><%=Messages.getInstance().getString("UI.PUC.LOGIN.EVAL_LOGIN")%></div>
+                <div id="eval-arrow" class="closed"></div>
+            </div>
+
+            <%
+            } else {
+            %>
+            &nbsp;
+            <%
+              }
+            %>
+</div>
+
+Ficando:
+
+<!--		  
+		  IT4biz - Remove o Botão Login as an Evaluator
+		  
+          <div id="eval-users-toggle-container">
+            <%
+              if (showUsers) {
+            %>
+            <div id="eval-users-toggle" onClick="toggleEvalPanel()">
+              <div><%=Messages.getInstance().getString("UI.PUC.LOGIN.EVAL_LOGIN")%></div>
+                <div id="eval-arrow" class="closed"></div>
+            </div>
+
+            <%
+            } else {
+            %>
+            &nbsp;
+            <%
+              }
+            %>
+          </div>
+
+-->	
+
+Não é necessário reiniciar
+          
+          
 
 
