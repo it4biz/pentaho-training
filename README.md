@@ -63,6 +63,7 @@ biserver-ce-5.0.1-stable/biserver-ce/pentaho-solutions/system/common-ui/resource
 Caminho completo (Web):
 http://localhost:8080/pentaho/content/common-ui/resources/themes/images/puc-login-logo.png
 
+Reiniciar o BI Server caso necessário.
 
 
 
