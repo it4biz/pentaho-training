@@ -74,6 +74,8 @@ Editar o arquivo PUCLogin.jsp
 
 Comentar o código abaixo:
 
+<code>
+
 <div id="eval-users-toggle-container">
             <%
               if (showUsers) {
@@ -92,8 +94,11 @@ Comentar o código abaixo:
             %>
 </div>
 
+</code>
+
 Ficando:
 
+<code>
 <!--		  
 		  IT4biz - Remove o Botão Login as an Evaluator
 		  
@@ -115,7 +120,9 @@ Ficando:
             %>
           </div>
 
--->	
+-->
+
+</code>
 
 Não é necessário reiniciar
           
