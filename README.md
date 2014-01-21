@@ -168,6 +168,21 @@ http://www.olap4j.org/
 http://www.science.co.il/Language/Locale-codes.asp
 
 
+Como logar sem pedir usuario e senha no Pentaho BI Server 5.0.1?
+
+Até a versão 4.8 funciona colocar userid=admin&password=password em qualquer URL.
+
+A partir da versão 5.0.1 somente é aceito na página Home conforme exemplo abaixo:
+Home aceita
+http://localhost:8080/pentaho/Home?userid=admin&password=password
+
+Direto no Relatório não aceita userid e password
+http://172.16.1.6:8080/pentaho/api/repos/:public:IT4biz:Reports:ClientsReport.prpt/viewer?ts=1390324489461&userid=admin&password=password
+
+Infos:
+http://jira.pentaho.com/browse/BISERVER-10354
+http://jira.pentaho.com/browse/BISERVER-10708
+
           
           
 
