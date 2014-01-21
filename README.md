@@ -34,3 +34,10 @@ http://sourceforge.net/projects/mondrian/
 
 Mondrian 3.6.1
 http://sourceforge.net/projects/mondrian/files/mondrian/mondrian-3.6.1/
+
+Infos:
+
+BI Server 5.0.1
+http://localhost:8080/
+user: admin
+password: password
