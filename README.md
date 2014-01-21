@@ -26,6 +26,9 @@ http://sourceforge.net/projects/mondrian/files/schema%20workbench/3.6.1-stable/
 PAD 5.0.1 Stable
 http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.0.1-stable/
 
+PDS 4.0.0 Stable
+http://sourceforge.net/projects/pentaho/files/Design%20Studio/4.0.0-stable/
+
 Links Mondrian:
 http://sourceforge.net/projects/mondrian/
 
