@@ -48,4 +48,22 @@ Home -> Administration
 Pentaho BI Server 5.0.1CE MySQL installation guide
 http://anonymousbi.wordpress.com/2013/12/15/pentaho-bi-server-5-0-1ce-mysql-installation-guide/
 
+Personalização
+1) Alterar o logo da página inicial do BI Server 5.0.1
+
+Na pasta:
+biserver-ce-5.0.1-stable/biserver-ce/pentaho-solutions/system/common-ui/resources/themes/images/
+
+Edite a imagem:
+puc-login-logo.png
+
+Caminho completo (Arquivo):
+biserver-ce-5.0.1-stable/biserver-ce/pentaho-solutions/system/common-ui/resources/themes/images/puc-login-logo.png
+
+Caminho completo (Web):
+http://localhost:8080/pentaho/content/common-ui/resources/themes/images/puc-login-logo.png
+
+
+
+
 
