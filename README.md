@@ -5,9 +5,8 @@ Updated: 20 Jan 2014
 
 Downloads Pentaho BI Suite
 
-Links:
+Links Pentaho:
 http://sourceforge.net/projects/pentaho/
-http://sourceforge.net/projects/mondrian/
 
 PRD 5.0.1 Stable
 http://sourceforge.net/projects/pentaho/files/Report%20Designer/5.0.1-stable/
@@ -26,6 +25,9 @@ http://sourceforge.net/projects/mondrian/files/schema%20workbench/3.6.1-stable/
 
 PAD 5.0.1 Stable
 http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.0.1-stable/
+
+Links Mondrian:
+http://sourceforge.net/projects/mondrian/
 
 Mondrian 3.6.1
 http://sourceforge.net/projects/mondrian/files/mondrian/mondrian-3.6.1/
