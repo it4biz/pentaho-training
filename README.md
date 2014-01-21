@@ -125,6 +125,23 @@ Ficando:
 </code>
 
 Não é necessário reiniciar
+
+3) Editar a imagem de fundo da tela de login:
+
+/Applications/Pentaho/biserver-ce-5.0.1-stable/biserver-ce/pentaho-solutions/system/common-ui/resources/themes/crystal
+
+arquivo:
+login-crystal-bg.jpeg
+
+4) Alterar a tela interna (Home)
+
+biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/content/welcome/index.html
+
+Ou 
+
+biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/index.jsp
+
+
           
           
 
