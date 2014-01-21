@@ -41,3 +41,11 @@ BI Server 5.0.1
 http://localhost:8080/
 user: admin
 password: password
+
+Administration
+Home -> Administration
+
+Pentaho BI Server 5.0.1CE MySQL installation guide
+http://anonymousbi.wordpress.com/2013/12/15/pentaho-bi-server-5-0-1ce-mysql-installation-guide/
+
+
