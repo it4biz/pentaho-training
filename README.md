@@ -142,6 +142,8 @@ Ou
 biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/index.jsp
 
 
+http://www.science.co.il/Language/Locale-codes.asp
+
           
           
 
