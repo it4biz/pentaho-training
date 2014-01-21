@@ -144,6 +144,30 @@ biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/index.js
 
 http://www.science.co.il/Language/Locale-codes.asp
 
+Links visualizadores OLAP:
+
+Saiku Chart Plus
+http://it4biz.github.io/SaikuChartPlus/
+
+Saiku
+http://meteorite.bi/saiku
+
+Pivot4J
+http://mysticfall.github.io/pivot4j/
+http://www.pivot4j.org/
+
+Pivot
+http://jpivot.sourceforge.net/
+
+STPivot
+https://code.google.com/p/stpivot/
+
+OLAP4J
+http://www.olap4j.org/
+
+http://www.science.co.il/Language/Locale-codes.asp
+
+
           
           
 
