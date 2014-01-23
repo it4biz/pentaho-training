@@ -183,6 +183,12 @@ Infos:
 http://jira.pentaho.com/browse/BISERVER-10354
 http://jira.pentaho.com/browse/BISERVER-10708
 
+
+MDX
+ select NON EMPTY(TopCount({Descendants([Produto].[Todos] ,[Produto].[Nome do Produto])}, 5, [Measures].[Valor])) on ROWS, 
+ NON EMPTY({[Measures].[Valor]}) on Columns 
+ from [Vendas]
+ WHERE {${filtroAnoVendasParameter}}
           
           
 
