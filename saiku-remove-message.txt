@@ -1,0 +1,25 @@
+How to remove the "You are using Saiku Community Edition" message
+
+Edit the file pentaho-solutions/system/saiku/ui/index.html
+
+Delete the lines:
+
+<script type="text/x-jquery-tmpl" id="template-upgrade">
+            <div class="upgradeheader">
+                You are using Saiku Community Edition, please consider <a target="_blank" href="http://saiku.meteorite.bi/support">purchasing support, or entering a sponsorship agreement with us</a> to support development. <a href="mailto:info@meteorite.bi?subject=Supporting Saiku">info@meteorite.bi</a><span class="close_tab sprite"></span>
+            </div>
+        </script>
+		
+
+Or comment the lines:
+
+
+<!--
+		<script type="text/x-jquery-tmpl" id="template-upgrade">
+		            <div class="upgradeheader">
+		                You are using Saiku Community Edition, please consider <a target="_blank" href="http://saiku.meteorite.bi/support">purchasing support, or entering a sponsorship agreement with us</a> to support development. <a href="mailto:info@meteorite.bi?subject=Supporting Saiku">info@meteorite.bi</a><span class="close_tab sprite"></span>
+		            </div>
+		</script>
+				
+
+-->
