@@ -1,7 +1,7 @@
 IT4biz Training
 ========
 
-Updated: 20 Jan 2014
+Updated: 7 Apr 2014
 
 Downloads Pentaho BI Suite
 
@@ -95,6 +95,7 @@ http://jira.pentaho.com/browse/BISERVER-10708
 
 
 MDX
+
  select NON EMPTY(TopCount({Descendants([Produto].[Todos] ,[Produto].[Nome do Produto])}, 5, [Measures].[Valor])) on ROWS, 
  NON EMPTY({[Measures].[Valor]}) on Columns 
  from [Vendas]
