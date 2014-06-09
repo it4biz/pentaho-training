@@ -107,3 +107,8 @@ export CATALINA_OPTS="-Xms2g -Xmx2g -XX:MaxPermSize=256m -Dsun.rmi.dgc.client.gc
 Recomendações Pentaho (Hardware)
 http://infocenter.pentaho.com/help/index.jsp?topic=%2Fsupported_components%2Freference_supported_components.html
 
+Alterar a versão do JDK no Mac OX
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+
+https://coderwall.com/p/esa4sg
