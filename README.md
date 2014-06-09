@@ -102,5 +102,6 @@ MDX
  WHERE {${filtroAnoVendasParameter}}
           
           
+export CATALINA_OPTS="-Xms2g -Xmx2g -XX:MaxPermSize=256m -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000"
 
 
