@@ -112,3 +112,21 @@ Alterar a versão do JDK no Mac OX
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 
 https://coderwall.com/p/esa4sg
+
+Pentaho Plug-ins (Obrigatórios)
+Pentaho Marketplace
+Community Dashboards Framework
+Community Data Access
+Community Dashboard Editor
+Community Graphics Generator
+Sparkl - Pentaho Application Builder
+Saiku Analytics
+Saiku Chart Plus
+
+
+Recomendados
+D3 Component Library
+Change Password
+
+
+
