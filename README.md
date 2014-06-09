@@ -130,5 +130,8 @@ Pivot4J Analytics
 Change Password
 Portuguese (Brazilian variant) Language Pack Installer
 
+-i = case insensitive
+ps -ef | grep -i pentaho
+
 
 
