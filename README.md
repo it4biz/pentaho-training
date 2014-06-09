@@ -126,7 +126,9 @@ Saiku Chart Plus
 
 Recomendados
 D3 Component Library
+Pivot4J Analytics
 Change Password
+Portuguese (Brazilian variant) Language Pack Installer
 
 
 
