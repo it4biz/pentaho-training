@@ -136,4 +136,6 @@ ps -ef | grep -i pentaho
 SQLeonardo
 http://sqleonardo.altervista.org/index.htm
 
+PRD with MongoDB
+http://wiki.pentaho.com/display/BAD/Create+a+Report+with+MongoDB
 
