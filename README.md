@@ -133,5 +133,7 @@ Portuguese (Brazilian variant) Language Pack Installer
 -i = case insensitive
 ps -ef | grep -i pentaho
 
+SQLeonardo
+http://sqleonardo.altervista.org/index.htm
 
 
