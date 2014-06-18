@@ -139,3 +139,8 @@ http://sqleonardo.altervista.org/index.htm
 PRD with MongoDB
 http://wiki.pentaho.com/display/BAD/Create+a+Report+with+MongoDB
 
+
+http://mondrian.pentaho.com/documentation/xml_schema.php
+
+hideMemberIf	String	Never	 Condition which determines whether a member of this level is hidden. If a hierarchy has one or more levels with hidden members, then it is possible that not all leaf members are the same distance from the root, and it is termed a ragged hierarchy.
+Allowable values are: Never (a member always appears; the default); IfBlankName (a member doesn't appear if its name is null, empty or all whitespace); and IfParentsName (a member appears unless its name matches the parent's.
