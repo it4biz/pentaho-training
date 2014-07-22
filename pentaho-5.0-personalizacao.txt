@@ -78,7 +78,7 @@ Não é necessário reiniciar
 
 3) Editar a imagem de fundo da tela de login:
 
-/Applications/Pentaho/biserver-ce-5.0.1-stable/biserver-ce/pentaho-solutions/system/common-ui/resources/themes/crystal
+/Applications/Pentaho/biserver-ce-5.0.1-stable/biserver-ce/pentaho-solutions/system/common-ui/resources/themes/crystal/images/
 
 arquivo:
 login-crystal-bg.jpeg
