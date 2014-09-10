@@ -13,6 +13,11 @@ http://blog.professorcoruja.com/2009/06/traducao-pentaho-bi-server-20-e-30-para.
 
 https://code.google.com/p/brazilianportuguesetranslationofpentaho/
 
+Pentaho Markplace
+
+https://github.com/pentaho/marketplace-metadata
+
+https://github.com/pentaho/marketplace-metadata/blob/master/marketplace.xml
 
 Downloads Pentaho BI Suite
 
