@@ -90,3 +90,9 @@ biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/content/
 Ou 
 
 biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/index.jsp
+
+Arquivo de exemplo:
+
+https://github.com/it4biz/training/blob/master/index.html
+
+Substitua o arquivo biserver-ce-5.0.1-stable/biserver-ce/tomcat/webapps/pentaho/mantle/home/content/welcome/index.html pelo arquivo https://github.com/it4biz/training/blob/master/index.html
