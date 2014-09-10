@@ -1,0 +1,17 @@
+http://localhost:8080/pentaho/plugin/data-access/api/permissions/hasDataAccess
+
+http://localhost:8080/pentaho/api/repo/files/canAdminister
+
+http://localhost:8080/pentaho/api/theme/list
+
+http://localhost:8080/pentaho/plugin/data-access/api/dialect/getDatabaseTypes
+
+http://localhost:8080/pentaho/api/mantle/isAuthenticated
+
+http://localhost:8080/pentaho/CacheExpirationService
+
+
+O que é isso? (Pesquisar)
+
+https://ads.panoramtech.net/rev2/api/config?client=ksod3
+
