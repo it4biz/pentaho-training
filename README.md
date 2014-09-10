@@ -1,7 +1,18 @@
 IT4biz Training
 ========
 
-Updated: 7 Apr 2014
+Updated: 7 Sep 2014
+
+Tradução:
+
+http://community.pentaho.com/marketplace/language-packs/
+
+https://github.com/webdetails/pentahoLanguagePacks
+
+http://blog.professorcoruja.com/2009/06/traducao-pentaho-bi-server-20-e-30-para.html
+
+https://code.google.com/p/brazilianportuguesetranslationofpentaho/
+
 
 Downloads Pentaho BI Suite
 
