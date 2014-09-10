@@ -3,7 +3,7 @@ IT4biz Training
 
 Updated: 7 Sep 2014
 
-Tradução:
+Tradução do Pentaho:
 
 http://community.pentaho.com/marketplace/language-packs/
 
@@ -13,7 +13,7 @@ http://blog.professorcoruja.com/2009/06/traducao-pentaho-bi-server-20-e-30-para.
 
 https://code.google.com/p/brazilianportuguesetranslationofpentaho/
 
-Pentaho Markplace
+Pentaho Marketplace
 
 https://github.com/pentaho/marketplace-metadata
 
