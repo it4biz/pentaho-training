@@ -174,3 +174,11 @@ PostgreSQL
 select 
 now() as dtCarga
 from nomeesquema.nometabela
+
+
+SELECT p.intProcessoId
+      ,dtaAbertura
+      , convert(datetime,convert(varchar, dtaAbertura,103),103) as dtaAberturaConvertida
+      ,p.intMunicipioComarcaId
+
+
