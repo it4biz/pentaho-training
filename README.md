@@ -1,8 +1,6 @@
 IT4biz Training
 ========
 
-Updated: 7 Sep 2014
-
 Tradução do Pentaho:
 
 http://community.pentaho.com/marketplace/language-packs/
@@ -164,3 +162,15 @@ Allowable values are: Never (a member always appears; the default); IfBlankName 
 
 IBM InfoSphere DataStage 
 http://www-03.ibm.com/software/products/pt/ibminfodata
+
+dtCarga (Campo utilizado para saber quando foi feito a carga)
+
+SQL Server 
+select 
+getDate() as dtCarga
+from suaTabela
+
+PostgreSQL 
+select 
+now() as dtCarga
+from nomeesquema.nometabela
