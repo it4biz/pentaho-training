@@ -182,3 +182,6 @@ SELECT p.intProcessoId
       ,p.intMunicipioComarcaId
 
 
+
+Pentaho BIServer api doc
+http://javadoc.pentaho.com/bi-platform500/webservice500/index.html
