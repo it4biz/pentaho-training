@@ -1,10 +1,17 @@
 How to remove the "You are using Saiku Community Edition" message in Saiku 3.0.8
 
+First, find the text message
+grep -Ril "You are using Saiku Community Edition," pentaho-solutions/system/saiku
+
 Edit the file pentaho-solutions/system/saiku/ui/saiku.min.js
 
-Delete the lines:
+Change the lines:
 
+Before:
 var a=$("\x3cdiv\x3e\x3cdiv id\x3d'uphead' class\x3d'upgradeheader'\x3eYou are using Saiku Community Edition, please consider upgrading to \x3ca target\x3d'_blank' href\x3d'http://meteorite.bi'\x3eSaiku Enterprise, or entering a sponsorship agreement with us\x3c/a\x3e to support development. \x3ca href\x3d'mailto:info@meteorite.bi?subject\x3dSupporting Saiku'\x3einfo@meteorite.bi\x3c/a\x3e\x3c/div\x3e\x3c/div\x3e").html()
+
+After:
+Upgrade=Backbone.View.extend({tagName:"div",events:{},template:function(){var a=$("\x3cdiv\x3e\x3cdiv id\x3d'uphead' class\x3d'upgradeheader'\x3eYou are using Eagle BI Server.\x3c/a\x3e\x3c/div\x3e\x3c/div\x3e").html()
 
 
 How to remove the "You are using Saiku Community Edition" message in Saiku 2.6
