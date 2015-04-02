@@ -179,3 +179,36 @@ SELECT p.intProcessoId
 
 Pentaho BIServer api doc
 http://javadoc.pentaho.com/bi-platform500/webservice500/index.html
+
+
+
+1) JDK 1.7
+
+Instalar JDK 1.7 da Oracle e Configurar a variável JAVA_HOME.
+
+Ver video de como instalar o JDK 1.6, favor instalar o JDK 1.7
+
+https://www.youtube.com/watch?v=9hnmyQUYbro
+
+OBS: NÃO INSTALAR O JDK 1.8!!!
+
+2) PostgreSQL 9.3 ou superior
+
+http://www.postgresql.org/download/
+
+3) Descarregar e descompactar os arquivos
+
+Pentaho BI Server 5.3 Stable
+http://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/5.3/biserver-ce-5.3.0.0-213.zip/download
+
+PRD 5.3.0 Stable
+http://sourceforge.net/projects/pentaho/files/Report%20Designer/5.3/prd-ce-5.3.0.0-213.zip/download
+
+PDI 5.3 Stable
+http://sourceforge.net/projects/pentaho/files/Data%20Integration/5.3/pdi-ce-5.3.0.0-213.zip/download
+
+PSW 3.9.0 Stable
+http://sourceforge.net/projects/mondrian/files/schema%20workbench/3.9.0/psw-ce-3.9.0.0-213.zip/download
+
+PAD 5.3.0 Stable
+http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.3/pad-ce-5.3.0.0-213.zip/download
