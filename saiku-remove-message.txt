@@ -42,3 +42,20 @@ Or comment the lines:
 
 Source:
 https://github.com/OSBI/saiku-ui/blob/master/index.html
+
+
+Para retirar o splash screen do novo saiku faz o seguinte:
+
+Modifique o arquivo 
+
+biserver-ce/pentaho-solutions/system/saiku/ui/saiku.min.js
+
+Substituir a item 
+
+!Settings.INITIAL_QUERY&&c.splash?Saiku.tabs.add(new SplashScreen,!1):Saiku.tabs.add(new Workspace)}}
+
+por
+
+!Settings.INITIAL_QUERY&&c.splash?Saiku.tabs.add(new Workspace):Saiku.tabs.add(new Workspace)}}
+
+
