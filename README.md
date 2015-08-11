@@ -12,7 +12,7 @@ If you want to download the CE(Community Edition) please go direct to sourceforg
 
 Until today (August, 11, 2015) the last stable version of Pentaho is the 5.4 version.
 
-Downloads Pentaho BI Suite CE (Community Edition)<BR><BR>
+Downloads Pentaho BI Suite CE (Community Edition)<BR>
 
 Links Pentaho BA Suite:<BR>
 http://sourceforge.net/projects/pentaho/<BR>
