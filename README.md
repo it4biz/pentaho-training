@@ -16,10 +16,10 @@ Links Pentaho BA Suite:<BR>
 http://sourceforge.net/projects/pentaho/<BR>
 
 BI Server 5.4.0.1-130 Stable<BR>
-http://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/5.4/biserver-ce-5.4.0.1-130.zip/download<BR><BR>
+http://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/5.4/biserver-ce-5.4.0.1-130.zip/download<BR>
 
 PRD 5.4.0.1-130 Stable<BR>
-http://sourceforge.net/projects/pentaho/files/Report%20Designer/5.4/prd-ce-5.4.0.1-130.zip/download<BR><BR>
+http://sourceforge.net/projects/pentaho/files/Report%20Designer/5.4/prd-ce-5.4.0.1-130.zip/download<BR>
 
 PDI 5.4.0.1-130 Stable<BR>
 http://sourceforge.net/projects/pentaho/files/Data%20Integration/5.4/pdi-ce-5.4.0.1-130.zip/download<BR><BR>
@@ -108,7 +108,7 @@ http://www.olap4j.org/<BR><BR>
 Hardware recommendations for the Pentaho Server
 http://infocenter.pentaho.com/help/index.jsp?topic=%2Fsupported_components%2Freference_supported_components.html
 
-##Pentaho Plug-ins (Obrigatórios)
+##Pentaho Plug-ins (Mandatory)
 Pentaho Marketplace<BR>
 Community Dashboards Framework<BR>
 Community Data Access<BR>
@@ -120,7 +120,7 @@ Saiku Chart Plus<BR>
 Pentaho CE Audit<BR>
 Pentaho Performance Monitoring<BR><BR>
 
-##Recomendados
+##Pentaho Plug-ins (recommended)
 D3 Component Library<BR>
 Pivot4J Analytics<BR>
 Change Password<BR>
