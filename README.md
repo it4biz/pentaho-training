@@ -109,22 +109,22 @@ Hardware recommendations for the Pentaho Server
 http://infocenter.pentaho.com/help/index.jsp?topic=%2Fsupported_components%2Freference_supported_components.html
 
 ##Pentaho Plug-ins (Mandatory)
-Pentaho Marketplace<BR>
-Community Dashboards Framework<BR>
-Community Data Access<BR>
-Community Dashboard Editor<BR>
-Community Graphics Generator<BR>
-Sparkl - Pentaho Application Builder<BR>
-Saiku Analytics<BR>
-Saiku Chart Plus<BR>
-Pentaho CE Audit<BR>
-Pentaho Performance Monitoring<BR><BR>
+* Pentaho Marketplace
+* Community Dashboards Framework
+* Community Data Access
+* Community Dashboard Editor
+* Community Graphics Generator
+* Sparkl - Pentaho Application Builder
+* Saiku Analytics
+* Saiku Chart Plus
+* Pentaho CE Audit
+* Pentaho Performance Monitoring
 
 ##Pentaho Plug-ins (recommended)
-D3 Component Library<BR>
-Pivot4J Analytics<BR>
-Change Password<BR>
-Portuguese (Brazilian variant) Language Pack Installer<BR><BR>
+* D3 Component Library
+* Pivot4J Analytics
+* Change Password
+* Portuguese (Brazilian variant) Language Pack Installer
 
 ##Pentaho BIServer api doc
 http://javadoc.pentaho.com/bi-platform500/webservice500/index.html<BR><BR>
