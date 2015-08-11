@@ -1,10 +1,10 @@
 ###IT4biz Training
 
-If you are here, it is because you want to learn more about Pentaho.<BR><BR>
+If you are here, it is because you want to learn more about Pentaho.
 
 If so you will probably participate in a IT4biz course.
 
-Here are the steps you need to follow to get ready to start the Training.<BR><BR>
+Here are the steps you need to follow to get ready to start the Training.
 
 ## Download all the softwares and unzip them all in a folder called Pentaho
 
