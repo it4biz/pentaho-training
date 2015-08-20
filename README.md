@@ -119,3 +119,51 @@ http://infocenter.pentaho.com/help/index.jsp?topic=%2Fsupported_components%2Fref
 
 ##Pentaho BIServer api doc
 http://javadoc.pentaho.com/bi-platform500/webservice500/index.html
+
+## Pentaho CE 5.4 on production with PostgreSQL
+
+https://github.com/wmarinho/docker-pentaho
+https://github.com/wmarinho/pentaho5-installer
+http://forums.pentaho.com/showthread.php?165218-Pentaho-Rapid-Deployment-with-Docker
+https://www.rowellbelen.com/docker-pentaho-ba-server-ce/
+https://hub.docker.com/r/bytekast/docker-pentaho-ce-5.3/
+https://hub.docker.com/r/wmarinho/pentaho-biserver/
+
+## Proxy / BI Server
+
+```
+IF "%BITS%" == "64" (
+  set CATALINA_OPTS=-Xms3g -Xmx3g -XX:MaxPermSize=256m -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Dhttp.proxyHost=proxy.trt7.local -Dhttp.proxyPort=9090 -Dhttps.proxyHost=proxy.trt7.local -Dhttps.proxyPort=9090
+) ELSE (
+  set CATALINA_OPTS=-Xms3g -Xmx3g -XX:MaxPermSize=256m -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Dhttp.proxyHost=proxy.trt7.local -Dhttp.proxyPort=9090 -Dhttps.proxyHost=proxy.trt7.local -Dhttps.proxyPort=9090
+)
+
+```
+
+## Change Port / BI Server
+
+Edit the file biserver-ce-5.4.0.1-130\biserver-ce\tomcat\conf\server.xml
+
+
+```
+	<!-- porta alterada de 8080 para 80 -->
+	
+    <Connector URIEncoding="UTF-8" port="80" protocol="HTTP/1.1" 
+               connectionTimeout="20000" 
+               redirectPort="8443" />
+
+```
+
+Edit the file \biserver-ce-5.4.0.1-130\biserver-ce\tomcat\webapps\pentaho\WEB-INF\web.xml
+
+
+```
+
+  <context-param>
+    <param-name>fully-qualified-server-url</param-name>
+    <param-value>http://localhost/pentaho/</param-value>
+  </context-param>
+  
+
+```
+
