@@ -169,3 +169,15 @@ Edit the file \biserver-ce-5.4.0.1-130\biserver-ce\tomcat\webapps\pentaho\WEB-IN
 
 ```
 
+## DW Config 
+
+```
+
+#DW Config
+DW_HOST=localhost
+DW_DATABASE=dw
+DW_PORT=5432
+DW_USERNAME=postgres
+DW_PASSWORD=Encrypted 2be98afc78aa7f2e21a1da345d078bdce
+
+```
