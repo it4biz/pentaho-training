@@ -122,14 +122,16 @@ http://javadoc.pentaho.com/bi-platform500/webservice500/index.html
 
 ## Pentaho CE 5.4 on production with PostgreSQL
 
-https://github.com/wmarinho/docker-pentaho
-https://github.com/wmarinho/pentaho5-installer
-http://forums.pentaho.com/showthread.php?165218-Pentaho-Rapid-Deployment-with-Docker
-https://www.rowellbelen.com/docker-pentaho-ba-server-ce/
-https://hub.docker.com/r/bytekast/docker-pentaho-ce-5.3/
-https://hub.docker.com/r/wmarinho/pentaho-biserver/
+https://github.com/wmarinho/docker-pentaho<BR>
+https://github.com/wmarinho/pentaho5-installer<BR>
+http://forums.pentaho.com/showthread.php?165218-Pentaho-Rapid-Deployment-with-Docker<BR>
+https://www.rowellbelen.com/docker-pentaho-ba-server-ce/<BR>
+https://hub.docker.com/r/bytekast/docker-pentaho-ce-5.3/<BR>
+https://hub.docker.com/r/wmarinho/pentaho-biserver/<BR>
 
 ## Proxy / BI Server
+
+Add -Dhttp.proxyHost=proxy.trt7.local -Dhttp.proxyPort=9090 -Dhttps.proxyHost=proxy.trt7.local -Dhttps.proxyPort=9090
 
 ```
 IF "%BITS%" == "64" (
