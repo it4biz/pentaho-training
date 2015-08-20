@@ -171,8 +171,8 @@ Edit the file \biserver-ce-5.4.0.1-130\biserver-ce\tomcat\webapps\pentaho\WEB-IN
 
 ## DW Config 
 
-```
 
+```
 #DW Config
 DW_HOST=localhost
 DW_DATABASE=dw
