@@ -212,3 +212,24 @@ http://sourceforge.net/projects/mondrian/files/schema%20workbench/3.9.0/psw-ce-3
 
 PAD 5.3.0 Stable
 http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.3/pad-ce-5.3.0.0-213.zip/download
+
+
+{
+    "emptyTable":"Não há dados disponíveis",
+    "info":"Mostrando _START_ a _END_ de _TOTAL_ registros",
+    "infoEmpty":"Mostrando 0 a 0 de 0 registros",
+    "infoFiltered":"(filtrado de _MAX_ registros)",
+    "infoPostFix":"",
+    "thousands":".",
+    "lengthMenu":"Mostrar _MENU_ registros",
+    "loadingRecords":"Carregando...",
+    "processing":"Processando...",
+    "search":"Filtro:",
+    "zeroRecords":"Nenhum registro encontrado",
+    "paginate": {
+        "first":"Primeiro",
+        "last":"Último",
+        "next":"Próximo",
+        "previous":"Anterior"
+    }
+}
