@@ -4,4 +4,5 @@ http://diethardsteiner.github.io/mondrian/2014/12/26/Bridge-And-Closure-Table.ht
 
 http://type-exit.org/adventures-with-open-source-bi/2010/12/analyzing-hierarchical-data-using-bridge-tables/
 
+http://forums.pentaho.com/showthread.php?71337-Bridge-table-with-kettle
 
