@@ -224,6 +224,21 @@ ORDER BY
 	2 DESC
 
 ```
+
+## MDX Query w/ Filter
+
+```
+WITH
+SET [~FILTER] AS
+    {${filter_productParameter}}
+SET [~ROWS] AS
+    {[Clientes.Cliente].[Nome do Cliente].Members}
+SELECT
+NON EMPTY {[Measures].[Valor]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [Vendas com o PSW]
+WHERE [~FILTER]
+```
 	
 ## Tipos de FormatString	
 
