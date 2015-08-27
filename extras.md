@@ -272,6 +272,36 @@ order by 1
 
 ```
 
+
+## Consulta SQL Produtos, Clientes, Estado, Cidade e Valor
+
+
+```
+
+SELECT
+     "dw"."dim_produtos"."desc_produto",
+     "dw"."dim_clientes"."nome_cliente",
+     "dw"."dim_clientes"."estado",
+     "dw"."dim_clientes"."cidade",
+     SUM("dw"."fato_vendas"."m_valor") as soma_valor_vendas
+FROM
+     "dw"."fato_vendas" 
+INNER JOIN "dw"."dim_produtos"
+    ON "dw"."dim_produtos"."sk_produto" = "dw"."fato_vendas"."sk_produto"  
+INNER JOIN "dw"."dim_clientes"
+    ON "dw"."dim_clientes"."sk_clientes" = "dw"."fato_vendas"."sk_clientes"  
+GROUP BY
+      "dw"."dim_produtos"."desc_produto"
+    , "dw"."dim_clientes"."nome_cliente"
+    , "dw"."dim_clientes"."estado"
+    , "dw"."dim_clientes"."cidade"
+ORDER BY
+    5 DESC
+    
+    
+```
+
+
 	
 ## Tipos de FormatString	
 
