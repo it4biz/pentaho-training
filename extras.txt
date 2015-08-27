@@ -233,3 +233,30 @@ http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.3/pad-ce
         "previous":"Anterior"
     }
 }
+
+
+## SQL Query 
+
+SELECT
+     "dw"."dim_produtos"."desc_produto",
+     SUM("dw"."fato_vendas"."m_valor") as soma_valor_vendas
+FROM
+     "dw"."fato_vendas" 
+INNER JOIN "dw"."dim_produtos"
+	ON "dw"."dim_produtos"."sk_produto" = "dw"."fato_vendas"."sk_produto"  
+GROUP BY
+	"dw"."dim_produtos"."desc_produto"
+ORDER BY
+	2 DESC
+	
+## Tipos de FormatString	
+
+#,###;(#,###)
+#,###.00;(#,###.00)
+¤ #,###;(¤ #,###)
+¤ #,###.00;(¤ #,###.00)
+#.#%;(#.#%)
+MMM-dd-yyyy
+MM-dd-yy
+yyyy-MMM-dd
+yy-MM-dd
