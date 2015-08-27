@@ -239,6 +239,39 @@ NON EMPTY [~ROWS] ON ROWS
 FROM [Vendas com o PSW]
 WHERE [~FILTER]
 ```
+
+## Consulta SQL Vendas por Produto filtrando por cliente
+
+```
+
+SELECT
+     "dw"."dim_produtos"."desc_produto",
+     SUM("dw"."fato_vendas"."m_valor") as soma_valor_vendas
+FROM
+     "dw"."fato_vendas" 
+INNER JOIN "dw"."dim_produtos"
+	ON "dw"."dim_produtos"."sk_produto" = "dw"."fato_vendas"."sk_produto"  
+WHERE 	
+     "dw"."fato_vendas"."sk_clientes" = ${p_cliente}
+GROUP BY
+	"dw"."dim_produtos"."desc_produto"
+ORDER BY
+	2 DESC
+
+```
+
+## Consulta SQL com os Clientes
+```
+
+SELECT
+    distinct "dw"."dim_clientes"."nome_cliente",
+    "dw"."dim_clientes"."sk_clientes"
+FROM
+     "dw"."dim_clientes" 
+order by 1
+
+```
+
 	
 ## Tipos de FormatString	
 
