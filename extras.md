@@ -301,6 +301,17 @@ ORDER BY
     
 ```
 
+## Como colocar total em um filtro no CDE
+
+```
+
+with member [Measures].[Name] as '[Produtos.Produto].CurrentMember.UniqueName' 
+SELECT
+NON EMPTY {[Measures].[Name]} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Produtos.Produto].Members}})} ON ROWS
+FROM [Vendas com o PSW]
+
+```
 
 	
 ## Tipos de FormatString	
