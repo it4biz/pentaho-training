@@ -1,51 +1,22 @@
 IT4biz Training
 ========
 
-Tradução do Pentaho:
-
+##Tradução do Pentaho:
 http://community.pentaho.com/marketplace/language-packs/
-
 https://github.com/webdetails/pentahoLanguagePacks
-
 http://blog.professorcoruja.com/2009/06/traducao-pentaho-bi-server-20-e-30-para.html
-
 https://code.google.com/p/brazilianportuguesetranslationofpentaho/
 
-Pentaho Marketplace
-
+##Pentaho Marketplace
 https://github.com/pentaho/marketplace-metadata
-
 https://github.com/pentaho/marketplace-metadata/blob/master/marketplace.xml
 
-Downloads Pentaho BI Suite
-
-Links Pentaho:
-http://sourceforge.net/projects/pentaho/
-
-PRD 5.2.0 Stable
-http://sourceforge.net/projects/pentaho/files/Report%20Designer/5.2/prd-ce-5.2.0.0-209.zip/download
-
-PDI 5.2 Stable
-http://sourceforge.net/projects/pentaho/files/Data%20Integration/5.2/pdi-ce-5.2.0.0-209.zip/download
-
-BI Server 5.2.0 Stable
-http://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/5.2/biserver-ce-5.2.0.0-209.zip/download
-
-PSW 3.8.0 Stable
-http://sourceforge.net/projects/mondrian/files/schema%20workbench/3.8.0/psw-ce-3.8.0.0-209.zip/download
-
-PAD 5.2 Stable
-http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.2/pad-ce-5.2.0.0-209.zip/download
-
-Links Mondrian:
+##Links Mondrian:
 http://sourceforge.net/projects/mondrian/
 
-Mondrian 3.6.1
-http://sourceforge.net/projects/mondrian/files/mondrian/mondrian-3.6.1/
+##Infos:
 
-Infos:
-
-BI Server 5.0.1
+##BI Server 5.0.1
 http://localhost:8080/
 user: admin
 password: password
@@ -53,40 +24,36 @@ password: password
 Administration
 Home -> Administration
 
-Pentaho BI Server 5.0.1CE MySQL installation guide
+##Pentaho BI Server 5.0.1CE MySQL installation guide
 http://anonymousbi.wordpress.com/2013/12/15/pentaho-bi-server-5-0-1ce-mysql-installation-guide/
 
-Personalização básica para colocar em produção
-
+##Personalização básica para colocar em produção
 https://github.com/it4biz/training/blob/master/pentaho-5.0-personalizacao.txt
-
-
 http://www.science.co.il/Language/Locale-codes.asp
 
-Links visualizadores OLAP:
+##Links visualizadores OLAP:
 
-Saiku Chart Plus
+###Saiku Chart Plus
 http://it4biz.github.io/SaikuChartPlus/
 
-Saiku
+###Saiku
 http://meteorite.bi/saiku
 
-Pivot4J
+###Pivot4J
 http://mysticfall.github.io/pivot4j/
 http://www.pivot4j.org/
 
-Pivot
+###Pivot
 http://jpivot.sourceforge.net/
 
-STPivot
+###STPivot
 https://code.google.com/p/stpivot/
 
-OLAP4J
+###OLAP4J
 http://www.olap4j.org/
 
-http://www.science.co.il/Language/Locale-codes.asp
 
-Como logar sem pedir usuario e senha no Pentaho BI Server 5.0.1?
+##Como logar sem pedir usuario e senha no Pentaho BI Server 5.0.1?
 
 Até a versão 4.8 funciona colocar userid=admin&password=password em qualquer URL.
 
@@ -102,21 +69,24 @@ http://jira.pentaho.com/browse/BISERVER-10354
 http://jira.pentaho.com/browse/BISERVER-10708
 
 
-MDX
+## MDX
 
+```
  select NON EMPTY(TopCount({Descendants([Produto].[Todos] ,[Produto].[Nome do Produto])}, 5, [Measures].[Valor])) on ROWS,
  NON EMPTY({[Measures].[Valor]}) on Columns
  from [Vendas]
  WHERE {${filtroAnoVendasParameter}}
 
+```
 
+```
 export CATALINA_OPTS="-Xms2g -Xmx2g -XX:MaxPermSize=256m -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000"
+```
 
-Recomendações Pentaho (Hardware)
+## Recomendações Pentaho (Hardware)
 http://infocenter.pentaho.com/help/index.jsp?topic=%2Fsupported_components%2Freference_supported_components.html
 
-Alterar a versão do JDK no Mac OX
-
+##Alterar a versão do JDK no Mac OX
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 
 https://coderwall.com/p/esa4sg
@@ -141,13 +111,13 @@ Portuguese (Brazilian variant) Language Pack Installer
 -i = case insensitive
 ps -ef | grep -i pentaho
 
-SQLeonardo
+##SQLeonardo
 http://sqleonardo.altervista.org/index.htm
 
-PRD with MongoDB
+##PRD with MongoDB
 http://wiki.pentaho.com/display/BAD/Create+a+Report+with+MongoDB
 
-
+## Mondrian Documentation
 http://mondrian.pentaho.com/documentation/xml_schema.php
 
 hideMemberIf	String	Never	 Condition which determines whether a member of this level is hidden. If a hierarchy has one or more levels with hidden members, then it is possible that not all leaf members are the same distance from the root, and it is termed a ragged hierarchy.
@@ -177,7 +147,7 @@ SELECT p.intProcessoId
 
 
 
-Pentaho BIServer api doc
+##Pentaho BIServer api doc
 http://javadoc.pentaho.com/bi-platform500/webservice500/index.html
 
 
@@ -214,6 +184,8 @@ PAD 5.3.0 Stable
 http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.3/pad-ce-5.3.0.0-213.zip/download
 
 
+```
+
 {
     "emptyTable":"Não há dados disponíveis",
     "info":"Mostrando _START_ a _END_ de _TOTAL_ registros",
@@ -234,9 +206,11 @@ http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.3/pad-ce
     }
 }
 
+```
 
 ## SQL Query 
 
+```
 SELECT
      "dw"."dim_produtos"."desc_produto",
      SUM("dw"."fato_vendas"."m_valor") as soma_valor_vendas
@@ -248,9 +222,12 @@ GROUP BY
 	"dw"."dim_produtos"."desc_produto"
 ORDER BY
 	2 DESC
+
+```
 	
 ## Tipos de FormatString	
 
+```
 #,###;(#,###)
 #,###.00;(#,###.00)
 ¤ #,###;(¤ #,###)
@@ -260,3 +237,6 @@ MMM-dd-yyyy
 MM-dd-yy
 yyyy-MMM-dd
 yy-MM-dd
+
+```
+
