@@ -181,3 +181,7 @@ DW_USERNAME=postgres
 DW_PASSWORD=Encrypted 2be98afc78aa7f2e21a1da345d078bdce
 
 ```
+## Matt Casters talking about PDI/Kettle at FEA/USP
+http://www.portalfea.fea.usp.br/videos/o-comeco-de-tudo-pentaho-data-integration-parte-4
+
+http://www.portalfea.fea.usp.br/videos/pentaho-day-2014-parte-1
