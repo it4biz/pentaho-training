@@ -14,3 +14,11 @@ https://github.com/webdetails/cdf
 http://pedroalves-bi.blogspot.com.br/
 
 https://twitter.com/pmalves
+
+
+## HTML IT4biz Logo
+
+```
+ <img src="http://www.it4biz.com.br/extras/logo-it4biz.png" alt="Logo IT4biz" height="60" width="103"> 
+```
+
