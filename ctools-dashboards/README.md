@@ -12,6 +12,19 @@ https://github.com/webdetails/cdf<BR>
 http://pedroalves-bi.blogspot.com.br/<BR>
 https://twitter.com/pmalves<BR>
 
+## Links you must visit:
+
+jQuery<BR>
+https://jquery.com<BR>
+
+Bootstrap<BR>
+http://getbootstrap.com<BR>
+
+CSS Blueprint<BR>
+Blueprint is a CSS framework, which aims to cut down on your development time. It gives you a solid foundation to build your project on top of, with an easy-to-use grid, sensible typography, useful plugins, and even a stylesheet for printing.<BR> 
+
+http://www.blueprintcss.org<BR>
+
 
 ## HTML IT4biz Logo - External
 
