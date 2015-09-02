@@ -3,17 +3,14 @@
 A Dashboard Framework for the Pentaho BI Platform<BR>
 http://wiki.pentaho.com/display/COM/A+Dashboard+Framework+for+the+Pentaho+BI+Platform<BR>
 
-Ingo Klose
-https://twitter.com/i_klose
+Ingo Klose<BR>
+https://twitter.com/i_klose<BR>
 
-CTools
-http://www.webdetails.pt/ctools/
-
-https://github.com/webdetails/cdf
-
-http://pedroalves-bi.blogspot.com.br/
-
-https://twitter.com/pmalves
+CTools Links<BR>
+http://www.webdetails.pt/ctools/<BR>
+https://github.com/webdetails/cdf<BR>
+http://pedroalves-bi.blogspot.com.br/<BR>
+https://twitter.com/pmalves<BR>
 
 
 ## HTML IT4biz Logo - External
@@ -22,10 +19,10 @@ https://twitter.com/pmalves
  <img src="http://www.it4biz.com.br/extras/logo-it4biz.png" alt="Logo IT4biz" height="60" width="103"> 
 ```
 
-## HTML IT4biz Logo - Internal 
+## HTML IT4biz Logo - Internal / BI Server CE 5.4
 
 ```
-<img src="\pentaho-styles\logo-it4biz.png" alt="Logo IT4biz" height="60" width="103">
+<img src="/sw-style/it4biz/logo-it4biz.png" alt="Logo IT4biz" height="60" width="103"> 
 
 ```
 
