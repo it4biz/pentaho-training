@@ -10,7 +10,7 @@ Here are the steps you need to follow to get ready to start the Training.
 
 If you want to download the CE(Community Edition) please go direct to sourceforge.net instead of the website Pentaho.com.
 
-Until today (August, 11, 2015) the last stable version of Pentaho is the 6.1.0.1-196 version.
+Until today (May, 23, 2016) the last stable version of Pentaho is the 6.1.0.1-196 version.
 
 Downloads Pentaho BI Suite CE (Community Edition)<BR>
 
