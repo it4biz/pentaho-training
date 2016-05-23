@@ -10,34 +10,32 @@ Here are the steps you need to follow to get ready to start the Training.
 
 If you want to download the CE(Community Edition) please go direct to sourceforge.net instead of the website Pentaho.com.
 
-Until today (August, 11, 2015) the last stable version of Pentaho is the 5.4 version.
+Until today (August, 11, 2015) the last stable version of Pentaho is the 6.1.0.1-196 version.
 
 Downloads Pentaho BI Suite CE (Community Edition)<BR>
 
 Links Pentaho BA Suite:<BR>
 http://sourceforge.net/projects/pentaho/<BR>
 
-BI Server 5.4.0.1-130 Stable<BR>
-http://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/5.4/biserver-ce-5.4.0.1-130.zip/download<BR>
+BI Server CE 6.1.0.1-196 Stable<BR>
+https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/6.1/biserver-ce-6.1.0.1-196.zip/download<BR>
 
-PRD 5.4.0.1-130 Stable<BR>
-http://sourceforge.net/projects/pentaho/files/Report%20Designer/5.4/prd-ce-5.4.0.1-130.zip/download<BR>
+PDI 6.1.0.1-196 Stable<BR>
+https://sourceforge.net/projects/pentaho/files/Data%20Integration/6.1/pdi-ce-6.1.0.1-196.zip/download<BR>
 
-PDI 5.4.0.1-130 Stable<BR>
-http://sourceforge.net/projects/pentaho/files/Data%20Integration/5.4/pdi-ce-5.4.0.1-130.zip/download<BR>
+PRD 6.1.0.1-196 Stable<BR>
+https://sourceforge.net/projects/pentaho/files/Report%20Designer/6.1/prd-ce-6.1.0.1-196.zip/download<BR>
 
-PSW 3.10.0.1-130 Stable<BR>
-http://sourceforge.net/projects/mondrian/files/schema%20workbench/3.10.0/psw-ce-3.10.0.1-130.zip/download<BR>
+PSW 3.12.0.1-196 Stable<BR>
+https://sourceforge.net/projects/mondrian/files/schema%20workbench/3.12.0/psw-ce-3.12.0.1-196.zip/download<BR>
 
-PAD 5.4.0.1-130 Stable<BR>
-http://sourceforge.net/projects/mondrian/files/aggregation%20designer/5.4/pad-ce-5.4.0.1-130.zip/download<BR>
+PAD 6.1.0.1-196 Stable<BR>
+https://sourceforge.net/projects/mondrian/files/aggregation%20designer/6.1/pad-ce-6.1.0.1-196.zip/download<BR>
 
-## Install JDK 1.7
+## Install JDK 1.8
 
-Install on your computer the JDK 1.7 and config the JAVA_HOME.
-
-DO NOT INSTALL JDK 1.6 OR 1.8.
-ONLY JDK 1.7
+Install on your computer the JDK 1.8 and config the JAVA_HOME.
+DO NOT INSTALL JDK 1.6.
 
 See the video below to help you with the installation.<BR>
 https://www.youtube.com/watch?v=9hnmyQUYbro
@@ -47,7 +45,6 @@ https://www.youtube.com/watch?v=9hnmyQUYbro
 Download PostgreSQL in the link below:<BR>
 
 http://www.postgresql.org/download/<BR>
-
 
 ## pentahoLanguagePacks
 
